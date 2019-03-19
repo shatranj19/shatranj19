@@ -1,664 +1,363 @@
-
 <!DOCTYPE html>
-<html lang="en" >
-  <head>
-  	<!-- Font -->
-  	<link href="fonts.css" rel="stylesheet" >
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Shatranj' 2.19 | Freshers Welcome : Electrical Department</title>
-   <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/shfavicon.JPG"/>
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Slick slider -->
-    <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/Asthetic Indian.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
+<html lang="en">
+<!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/img/shatrang_icon.jpg"/>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./index_files/bulma.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shatranj' 2.19</title>
+  <link rel="stylesheet" type="text/css" href="./index_files/component.css">
+  <link rel="stylesheet" href="./index_files/master.css">
+  <link rel="stylesheet" href="./index_files/navbar.css">
+  <link rel="stylesheet" href="./index_files/button.css">
+  <link rel="stylesheet" href="public/css/particle.css">
+  <link rel="stylesheet" href="./public/css/preloader.css">
+  <link rel="stylesheet" href="./index_files/quotes-slider.css">
+  <link rel="stylesheet" type="text/css" href="./index_files/fonts.css">
+  <script src="./index_files/jquery-1.10.2.js.download"></script>
+  <link href="./index_files/css" rel="stylesheet">
+		
+		<meta name="google-site-verification" content="tft9062jL_MEP5DfFywiOQixj99zN5gVyX3lLIOCdPY" />
+</head>
+	<style>
 
+        /* Center the loader */
 
+		@font-face {
+  font-family: 'tarjanpro';
+  src: url('TrajanPro.ttf');
+}
 
-    <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+@font-face {
+  font-family: 'pasajero';
+  src: url('Pasajero.otf');
+}
 
-    <!-- Fonts -->
+div.style1 {
+  font-family: myFirstFont;
+}
+div.style2 {
+  font-family: pasajero;
+}
 
-    <!-- Open Sans for body font -->
-	<!-- Montserrat for title -->
-
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
-		<noscript>
-			<style>
-				.es-carousel ul{
-					display:block;
-				}
-			</style>
-		</noscript>
-		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
-			<div class="rg-image-wrapper">
-				{{if itemsCount > 1}}
-					<div class="rg-image-nav">
-						<a href="#" class="rg-image-nav-prev" style="background-image: url('./assets/images/nav1.png'); ">Previous Image</a>
-						<a href="#" class="rg-image-nav-next" style="background-image: url('./assets/images/nav2.png'); ">Next Image</a>
-					</div>
-				{{/if}}
-				<div class="rg-image"></div>
-				<div class="rg-loading"></div>
-				<div class="rg-caption-wrapper">
-				<div class="rg-caption" style="display:none;">
-						<p></p>
-					</div>
-				</div>
-			</div>
-		</script>
-
-      </head>
-  <body >
-    <!--facebook Javascript start -->
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2"></script>
-  <div id="loader-wrapper">
-<!--facebook Javascript end -->
-
-		<div id="loader"></div>
-		<div class="loader-section section-left"></div>
-		<div class="loader-section section-right"></div>
-	</div>
-
-
-  	<!-- Start Header -->
-	<header id="mu-hero" class="" role="banner">
-		<!-- Start menu  -->
-		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
-		  	<div class="container">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="background:#000000">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-
-			      <!-- Logo -->
-			     <a class="navbar-brand" href="index.html"><img id="logo_image" style="margin-top:8px" src="assets/images/shatrang_icon.jpg"></a>
-			    </div>
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      	<ul class="nav navbar-nav mu-menu navbar-left">
-			      		<li><a href="#mu-hero">Home</a></li>
-				        <li><a href="#mu-about">About Us</a></li>
-				        <li><a href="#mu-schedule">Events</a></li>
-			          <li><a href="#mu-pricing">Gallery</a></li>
-				        <li><a href="#mu-register">Register</a></li>
-			            <!--<li><a href="#mu-sponsors">Sponsors</a></li>
-
-				    <li><a href="#mu-developer-content">Developer</a></li>-->
-			      	</ul>
-			    </div><!-- /.navbar-collapse -->
-		  	</div><!-- /.container-fluid -->
-		</nav>
-		<!-- End menu -->
-
-		<div class="mu-hero-overlay">
-					<div id = "bubble">
-
-					</div>
-
-					<!-- Start hero featured area -->
-        </div>
-      <div>
-        	<!-- new def featured area -->
- <!--         <img style="position:absolute;margin: auto;top: 0;left: 0;right: 0;bottom: 0;" src="assets/images/shfront.jpg"/> -->
-
-					<canvas id="scene"></canvas>
-					<input id="copy" type="hidden"/>
-
-					<div class="mu-event-counter-area">
-							<div id="mu-event-counter">
-
-									<div class="media dtc">
+		#lo{
+			height: auto;
+			padding: 0px 100px;
+			text-align: center;
+		}
+		#lo img{
+			height: 70px;
+		}
+		.media{
+			text-align: center;
+		}
+		.main-header{
+			padding: 0px 50px;
+			width: 100%;
+			font-size: 3.5em;
+			color: white;
+		}
+		.caption img{
+				margin-top: 35px;
+		}
+		@media(max-width:1024px){
+			.main-header{
+				width: 100%;
+				font-size: 2.2em;
+				color: white;
+			}
+			#lo img{
+				height: 50px;
+			}
+			.caption img{
+				height: 350px;
+				position:static;
+				margin-top: 100px;
+			}
+		}
+		@media(max-width:808px){
+			.main-header{
+				width: 100%;
+				font-size: 2.0em;
+				color: white;
+			}
+			#lo img{
+				height: 60px;
+			}
+			.caption img{
+				height: 300px;
+			}
+		@media(max-width:360px){
+			.main-header{
+				width: 100%;
+				font-size: 1.5em;
+				color: white;
+			}
+			#lo img{
+				height: 50px;
+			}
+			.caption img{
+				height: 175px;
+				position:static;
+				margin-top: 100px;
+			}
+		}
+		@media(max-width:320px){
+			.main-header{
+				width: 100%;
+				font-size: 1.1em;
+				color: white;
+			}
+			#lo img{
+				height: 50px;
+			}
+			.caption img{
+				height: 200px;
+				position:static;
+				margin-top: 100px;
+			}
+		}
+		
+	</style>
+<body  style=" ">
+     <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+  <div id="perspective">
+    <div id="container" class="p-container">
+      <div class="header" style="height:100%">
+        <div class="content" style="height:100%">
+          <div id="large-header" class="large-header" style="height:100%">
+		<div class="media dtc">
 		  <div style="font-family:tarjanpro">
 			  <h3 class="main-header">
-			  	
+			  	Department of Electrical Engineering
 				</h3>
 				
-				<font color="white" face="Times new roman" size="7"><marquee behavior="alternate" scrollamount="15">
-				<center>Shatranj' 2.19<br> 
-				Department of Electrical Engineering<br>
-				B.P. Poddar Institute of Management and Technology<br>
-				</marquee></center></font>
+				<font color="white" face="Times new roman" size="7"><center>
+				B.P. Poddar Institute of Management and Technology
+				</center></font>
 		  </div>
 		</div>
-				  
-							</div>
-					</div>
-
-			
-					<!-- End hero featured area -->
-
+		<div style="font-family:tarjanpro">
+			<div class="caption">
+				<img src="ts.JPG" alt="Shatranj' 2.19" height="350" width="350">
+				<h1 class="has-text-centered has-text-light t-date" style="font-spacing:1;">15<sup>th</sup> April 2019</h1>
+			</div>
 		</div>
-	</header>
-	<!-- End Header -->
 
-	<!-- Start main content -->
-	<main role="main">
-		<!-- Start About -->
-		<!-- Start About -->
-		<section id="mu-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-about-area">
-							<!-- Start Feature Content -->
-							<div class="row">
-								<div class="col-md-4">
-									<div class="mu-about-right">
-									<img class="" src="assets/images/shfavicon.JPG" alt="Main Speaker">
-									</div>
-								</div>
-								<div class="col-md-8">
-									<div class="mu-about-left">
-										<h2 class="mu-title" style="margin-bottom:20px">About Shatranj' 2.19</h2>
-										 <p class="mu-content">Shatranj' 2.19 is the freshers welcome event of Electrical Engineering Department of B.P.PODDAR INSTITUTE OF MANAGEMENT AND TECHNOLOGY, Kolkata. </p>
-                <p class="mu-content">Over the years, Freshers welcome by Electrical Department has established a legacy of fellowship and pride which fosters cultural diversity and stimulates creativity and imagination.  </p>
-                <p class="mu-content">This spring we unveil a event which shall witness days of absolute ecstasy, providing the budding artists a competing platform in diverse fields such as music, dance, theatre, photography, literature. </p>
-				<p class="mu-content">So get ready to bask in the glory of a magnificence of an unprecedented scale and embrace all the fun and frolic because ladies and gentlemen, Shatranj' 2.19 will be unparalleled! Let make this event memorable.</p></div>
-									</div>
-								</div>
-							</div>
-							<!-- End Feature Content -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End About -->
-
-<!---events start --->
-		<section id="mu-schedule" style="background:#191919">
-			<div class="container">
-				<div class="row">
-					<div class="colo-md-12">
-						<div class="mu-schedule-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title" style="margin-bottom:20px">Events</h2>
-								<p class="mu-content">Atrang 2.19 presents both online and offline event for freshers. All information and rules are mentioned in this section </p>
-							</div>
-
-							<div class="mu-schedule-content-area">
-
-
-								<div class="tab-content mu-schedule-content">
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
-								    	<ul>
-                        <!-- listing 1-->
-								    		<li>
-								    			<img class = "pro" id = "verve" src="assets/images/e1.jpg" alt="event speaker">
-
-								    			<div class="mu-single-event">
-
-								    				<p class="mu-event-time">Glamour Hunt</p>
-								    				<h3>Online Event</h3>
-                            <div style="padding:0px 20px">
-								    				<span class = "mu-content">Message Your Photo along with Cption and Get a chance to win Mr. / Miss. Popular </span>
-                            </div>
-                            <br>
-                          <button class = "mu-rule-button" onclick="ragaRules()"> Rules </button>
-                          <div class = "mu-event-rules" id="ragaRules" style="display: none;padding:0px 20px">
-                          <span class = "mu-rule-content" >
-                            <br><br> &#11044; A participant can submit only one photo.The decision of the judges will be final .
-                            <br><br> &#11044; The caption should be unique and within 120 characters.
-                            <br><br> &#11044; Photo can be a selfie or a normal photo but only an individual must be present(no group photos).
-                            <br><br> &#11044; Autolikers are strictly banned. If found guilty photo will be disqualified.
-                            <br><br> &#11044; Likes will be counted only if both the user and liker have liked the page.
-                            <br><br> &#11044; Caption shouldn't be copied.
-                          </span>
-                          <br>
-                          <button class = "mu-rule-close-button" onclick="ragaRules()"> Collapse Rules </button>
-								    			</div>
-								    		</li>
-								    	</ul>
-                  </div>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
     </div>
-		</section>
-		<!-- End Schedule -->
 
-
-		<!-- Start Gallery  -->
-		<section id="mu-pricing" >
-
-			<div class="container-fluid">
-				<div class="row no-gutter" >
-
-						<div class="mu-pricing-area no-gutter">
-						<div class="mu-pricing-content" style="align-items: center;">
-								<h1 id = "gallery-title" class="mu-title">Zorion 2.18 Memories </h1>
-				<div id="rg-gallery" class="rg-gallery">
-					<div class="rg-thumbs">
-						<!-- Elastislide Carousel Thumbnail Viewer -->
-						<div class="es-carousel-wrapper">
-							<div class="es-nav">
-								<span id = "new" class="es-nav-prev">Previous</span>
-								<span id = "new" class="es-nav-next">Next</span>
-							</div>
-							<div class="es-carousel">
-								<ul>
-									<li><a href="#"><img src="assets/images/g00.jpg" data-large="assets/images/g00.jpg" alt="image01" /></a></li>
-									<li><a href="#"><img src="assets/images/g01.jpg" data-large="assets/images/g01.jpg" alt="image02"/></a></li>
-									<li><a href="#"><img src="assets/images/g02.jpg" data-large="assets/images/g02.jpg" alt="image03"/></a></li>
-									<li><a href="#"><img src="assets/images/g03.jpg" data-large="assets/images/g03.jpg" alt="image04"/></a></li>
-									<li><a href="#"><img src="assets/images/g04.jpg" id = "fifth_image" data-large="assets/images/g04.jpg" alt="image05"/></a></li>
-									<li><a href="#"><img src="assets/images/g05.jpg" data-large="assets/images/g05.jpg" alt="image02"/></a></li>
-									<li><a href="#"><img src="assets/images/g06.jpg" data-large="assets/images/g06.jpg" alt="image03"/></a></li>
-									<li><a href="#"><img src="assets/images/g07.jpg" data-large="assets/images/g07.jpg" alt="image04"/></a></li>
-									<li><a href="#"><img src="assets/images/g08.jpg" data-large="assets/images/g08.jpg" alt="image02"/></a></li>
-									<li><a href="#"><img src="assets/images/g09.jpg" data-large="assets/images/g09.jpg" alt="image03"/></a></li>
-									<li><a href="#"><img src="assets/images/g10.jpg" data-large="assets/images/g10.jpg" alt="image04"/></a></li>
-									<li><a href="#"><img src="assets/images/g11.jpg" data-large="assets/images/g11.jpg" alt="image02"/></a></li>
-									<li><a href="#"><img src="assets/images/g12.jpg" data-large="assets/images/g12.jpg" alt="image03"/></a></li>
-									<li><a href="#"><img src="assets/images/g13.jpg" data-large="assets/images/g13.jpg" alt="image04"/></a></li>
-									<li><a href="#"><img src="assets/images/g14.jpg" data-large="assets/images/g14.jpg" alt="image03"/></a></li>
-									<li><a href="#"><img src="assets/images/g15.jpg" data-large="assets/images/g15.jpg" alt="image04"/></a></li>
-									<li><a href="#"><img src="assets/images/g16.jpg" data-large="assets/images/g16.jpg" alt="image03"/></a></li>
-									<li><a href="#"><img src="assets/images/g17.jpg" data-large="assets/images/g17.jpg" alt="image03"/></a></li>
-                  					<li><a href="#"><img src="assets/images/g18.jpg" data-large="assets/images/g18.jpg" alt="image03"/></a></li>
-
-							</div>
-						</div>
-						<!-- End Elastislide Carousel Thumbnail Viewer -->
-					</div><!-- rg-thumbs -->
-				</div><!-- rg-gallery -->
-
-			</div><!-- content -->
-
-				</div>
-			</div>
-		</section>
-		<!-- End Gallery -->
-
-		<!-- Start Sponsors
-		<section id="mu-sponsors" style="background-color: #82050e; -webkit-box-shadow:inset 0px 0px 50px #000; box-shadow:inset 0px 0px 50px #000;" >
-			<div class="container" >
-				<div class="row" >
-					<div class="col-md-12"  >
-						<div class="mu-sponsors-area"  style="background-color: #303030;">
-
-							<div class="mu-title-area" >
-								<h2 class="mu-title">Our Sponsors</h2>
-								<p class="mu-content">On behalf of the entire team, we gratefully acknowledge and thank our generous sponsors for believing in us. With the continued support and generosity the Fest was able to reach its utmost potential.
-A glimpse at the some of the assortment of our sponsors</p>
-							</div>
-
-							<!-- Start spnonsors brand logo
-							<div class="mu-sponsors-content">
-								<div class="row" style="margin-left: 20px; margin-right:  20px; ">
-									<center>
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-	                                <div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor.png" alt="Brand Logo">
-										</div>
-									</div>
-
-
-
-									</center>
-									</div>
-								</div>
-							</div>
-							<!-- End spnonsors brand logo -->
+  </div>
+</div>
 
 
 
 
-		<!-- Start Register  -->
+<!--About Section Goes here -->
+<div style="font-family:pasajero">
+<div class="about-section" id="bottom">
+<div class="white-circle">
+<div class="hero-body">
+<div class="container" style="display:contents">
+<h1 class="title is-3 has-text-centered" style="font-family:">About Shatranj' 2.19</h1><br>
+<p>
+2nd Year Electrical Department of B.P.PODDAR INSTITUTE OF MANAGEMENT & TECHNOLOGY presents to you ‘Shatranj' 2.19’ where we aim to give the best freshers welcome to our juniors.
+<br>
+<br>
+Over the years, Freshers welcome by Electrical Department has established a legacy of fellowship and pride which fosters cultural diversity and stimulates creativity and imagination.
+<br>
+<br>
+This spring we unveil a event which shall witness days of absolute ecstasy, providing the budding artists a competing platform in diverse fields such as music, dance, theatre, photography, literature.
+<br>
+So get ready to bask in the glory of a magnificence of an unprecedented scale and embrace all the fun and frolic because ladies and gentlemen, Shatranj' 2.19 will be unparalleled! Let make this event memorable.</p>
+</div>
+</div>
+</div>
 
-		<section id="mu-register" >
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12" >
-						<div class="mu-register-area" >
-
-							<div class="mu-title-area" >
-								<h2 class="mu-title">Atrang2.19 Registration</h2>
-								<p class = "mu-content"></p>
-
-								<a href="" target="_blank">
-									<button type="submit" id="contact-submit" class="mu-reg-submit-btn">Register</button>
-								</a>
-								<h2 class="mu-title" style="padding-top: 50px;">Contact</h2>
-								<div class="mu-pr">
-									<div class="mu-pr-details">
-										<h1 align="center">Niprojit Ghosh</h1>
-										<h2 align="center" style="float:left">7686932781</h2>
-									</div>
-
-									<div class="mu-pr-details">
-										<h1 align="center">Anubhov Menon</h1>
-										<h2 align="center" style="float:left">9874434629</h2>
-									</div>
-
-									<div class="mu-pr-details">
-										<h1 align="center">Kriti Goel</h1>
-										<h2 align="center" style="float:left">8004536512</h2>
-									</div>
-
-									<div class="mu-pr-details">
-										<h1 align="center">Gourab Ghosh</h1>
-										<h2 align="center" style="float:left">8017423319</h2>
-									</div>
-								</div>
-                </center>
-
-							<br>
-
-								<!--
-								<p class = "mu-content"><br><br>Pay Here</p>
-								<a href="" target="_blank">
-									<button type="submit" id="contact-submit" class="mu-reg-pay-btn">Pay</button>
-								</a>
-							</div>
-							<!-- FORM Content
-							<div class="mu-register-content">
-								<form class="mu-register-form">
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">
-												<input type="text" class="form-control" autocomplete="off" placeholder="Your Full Name" id="name" name="name" required="">
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="form-group">
-												<input type="email" class="form-control" autocomplete="off" placeholder="Enter Your Email" id="email" name="email" required="">
-											</div>
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">
-												<input type="text" class="form-control" autocomplete="off" placeholder="Your Phone Number" id="phone" name="telephone" required="">
-											</div>
-										</div>
-										<div class="col-md-6">
-
-										<div class="form-group">
-											<select class="form-control" name="Category" id="Category">
-												<option value="0">General Information/Feedback</option>
-												<option value="1">Sponsorship</option>
-												<option value="2">Events</option>
-												<option value="3">Others</option>
-											</select>
-										</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<textarea class="form-control" placeholder="Message" autocomplete="off" id="message" name="message" required></textarea>
-									</div>
-
-									<button type="submit" id="contact-submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-					            </form>
-							</div> -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Register -->
+</div>
+</div>
 
 
 
 
 
 
+<div style="font-family:pasajero">
+    <div class="about-dtc">
+	<center>
+		<h1 style="background: none; width: 40%; border-radius: 50%; border: 0px solid black; padding: 10px; color: white">Official Teaser</h1>
+		<br>
+      <iframe width=90% height=600px src="https://www.youtube.com/embed/Hfa0ClYkktc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </center>
+</div></div>
 
-	</main>
-	
-	<!-- End main content -->
-
-	<!-- Start footer -->
-	<footer id="mu-footer" role="contentinfo">
-			<div class="container">
-				<div class="mu-footer-area">
-					<div class="mu-footer-top">
-			<font size="6" color="black" face="Times New Roman">
-            <body><center><u><b>Follow Us On Facebook
-			</body></font></b></u></center>
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fchessoundslame%2F&tabs=timeline&width=1040&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="370" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-            <div class="mu-footer-bottom"><p style="font-size: 10px;">
-				</div>
-			</div>
+        <div style="font-family:pasajero">
+            <div class="sponsors">
+  <div class="hero is-white">
+    <div class="hero-body">
+      <h1 class="title is-3 has-text-centered" >Our Sponsors</h1><br>
+      <div class="columns is-centered">
+        	<!--Ardent--->
+	      <div class="column is-3 ">
+          <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2jRK0877-ETyoZOnR5zJsRDTZKbOYcfl5V4CmfVgU6z2vguHD" alt=""-->
+          </figure>
+        	</div>
+	    <!---made easy--> 
+	      
+	       <div class="column is-3 ">
+          	<figure>
+            <img src="data:image/png;base64,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" alt=""-->
+          	</figure>
+        	</div>
+	      <!--IIHT-->
+	       <div class="column is-3 ">
+          	<figure>
+            	<img src="https://directory.edugorilla.com/wp-content/uploads/sites/6/2017/03/13178558_978990662196442_4022609664574733295_n.jpeg" alt=""-->
+          	</figure>
+        	</div>
+	      <!--ungeennrig-->
+	       <div class="column is-3 ">
+          	<figure>
+            	<img src="https://s3-ap-southeast-1.amazonaws.com/internshala-uploads/google_logo/Ungineering_991774.png" alt=""-->
+          	</figure>
+        	</div>
+          
+         
+	      
+	      
+      </div>
+        <div class="columns is-centered">
+         <!--edurite-->
+           <div class="column is-3 ">
+          	<figure>
+            	<img src="http://www.khojle.in/media/catalog/product/cache/1/image/265x265/9df78eab33525d08d6e5fb8d27136e95/1/4/1461326020_ERUDITE_with_web_address_.jpg" alt=""-->
+          	</figure>
+        	</div>
+            <!---cake-o-nation-->
+            <div class="column is-3 ">
+          	<figure>
+            	<img src="https://scontent.fccu10-1.fna.fbcdn.net/v/t1.0-0/p200x200/26907108_1712212832134615_4191627519070262079_n.jpg?_nc_cat=106&_nc_ht=scontent.fccu10-1.fna&oh=2db44614b0d2eeb208b1461a9e846fdd&oe=5D123AB1" alt=""-->
+          	</figure>
+        	</div>
+        </div>
     </div>
+
+  </div>
+                
+</div>
+        </div>
+
+<div class="footer hero is-dark" style="padding: 15px; position:relative; bottom:0px;padding:60px 60px;font-family:calibri;text-transform:uppercase;width:100%">
+  <div class="columns">
+    <div class="column has-text-centered">
+  <div class="title is-5 is-spaced" style="padding:5px">
+
+	Reach Us
+</div>
+<hr>
+    <div class="subtitle is-6">
+        137, V.I.P. Road, Mali Bagan, Poddar Vihar,
+        <br>Kolkata, West Bengal 700052
+      </div>
+        <br>
+        <div class="subtitle is-6">
+        Salt Lake Campus :
+EN-31 Salt Lake,
+Sector V
+Kolkata - 700091
+      </div>
+        <br>
+         <div class="subtitle is-6">
+    City Office : 87, Park Street (Opp St. Xavier's College, Beside Park Street Police Station)
+Kolkata - 700016
+      </div>
     </div>
-	</footer>
+    <div class="column has-text-centered" style="text-align:justify;display:grid;">
 
-  <footer id="mu-footer" style="background:#232323;color:#cccccc" role="contentinfo">
-      <div class="container">
-        <div class="mu-footer-area">
-          <p style="color"><b>Developed By - <a style="color:#9a9a9a" href="">Nilotpal Kapri</a></b></p>
+
+          <div class="title is-5 is-spaced" style="padding:5px;">
+            Contact Us
+            <hr>
+          </div>
+          <div class="subtitle is-6">
+            Phone No : 91-033-40619174/75/76 <br>
+Fax : 91-033-25739401<br>
+E-mail : info@bppimt.ac.in<br>
+          </div>
+      </div>
+
+
+      <br>
+      <br>
+
     </div>
+
     </div>
-  </footer>
-	<!-- End footer -->
+  </div>
+</div>
 
+<nav id="outer-nav" class="outer-nav">
+    <div style="font-family:tarjanpro"><a href="home.html" class="icon-home">Home</a></div>
+    <div style="font-family:tarjanpro"> <a href="events.html" class="icon-news">Events</a></div>
+    <div style="font-family:tarjanpro"> <a href="gallery.html" class="icon-image">Gallery</a></div>
+    <div style="font-family:tarjanpro">  <a href="team.html" class="icon-lock">Team</a></div>
+    <div style="font-family:tarjanpro"><a href="contact.html" class="icon-mail">Contact Us</a></div>
+   <div style="font-family:tarjanpro"><a href="https://techstorm2k19.github.io/result/result.html" class="icon-mail">Results</a></div>		
+ </nav>
 
+<button type="button" id="menu-toggle" class="button is-warning is-large" name="button">☰</button>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-	<!-- Slick slider -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-
-    <!-- Event Counter -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- Ajax contact form  -->
-    <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="assets/js/wow.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.tmpl.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.elastislide.js"></script>
-
-
-
-
-
-
-
-
-
-    <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-	<script type="text/javascript" src="assets/js/scripts.js"></script>
-	<!--
-	<script>
-
-function sendForm(e){
-  console.log("data passed");
-  $.post("contact_us/contact.php", {
-    subject: $('#Category option:selected').text(),
-    mobile: $('#phone').val(),
-    name: $('#name').val(),
-    email: $('#email').val(),
-    message: $('#message').val(),
-  },
-  function(data){
-    $(".error-message").html(data);
-    console.log(data);
+ <script src="./index_files/jquery.hover3d.js.download"></script>
+ <script src="./public/js/preloader.js"></script>
+<script type="text/javascript">
+$(".scrolldown").click(function() {
+  $('html,body').animate({
+    scrollTop: $(".about").offset().top},
+    'slow');
   });
-}
 
-function clearForm(){
-    $('#Category').val('');
-    $('#phone').val('');
-    $('#name').val('');
-    $('#email').val('');
-    $('#message').val('');
-}
+  $("#menu-toggle").click(function() {
+    $('#perspective').addClass("perspective");
+    $('.p-container').addClass("moveleft");
+    $('#menu-toggle').addClass("hidden");
+    $('#outer-nav').addClass("animate");
+  });
 
-$('#contact-submit').on('click', function(e){
-  e.preventDefault();
-    sendForm();
-    window.alert('Thank You! Your Message was sent!');
-    clearForm();
+  $("#container").click(function() {
+    $('#container').removeClass("moveleft");
+    $('#menu-toggle').removeClass("hidden");
+    $('#outer-nav').removeClass("animate");
+    setTimeout(function(){
+      $('#perspective').delay("slow").removeClass("perspective");
+    }, 400);
 
-});
+  });
 
 </script>
--->
-
-<script>
-	function ragaRules(){
-	var x = document.getElementById("ragaRules");
-	if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-
-function droppingRules(){
-	var y = document.getElementById("droppingRules");
-	if (y.style.display === "none") {
-        y.style.display = "block";
-    } else {
-        y.style.display = "none";
-    }
-}
+	<script src="public/js/particles.js"></script>
+	<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+	stats.begin();
+	stats.end();
+	if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+	  count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+	}
+	requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
 </script>
- </body>
 
-</html>
+</body></html>
