@@ -53,10 +53,83 @@
             Comes with fully responsive layout, Cool features, and Clean design.
             </p>
 -->
-            <div class="button-group">
+<!--            <div class="button-group">
               <a href="./home.html" class="btn btn-common">ENTER</a>
-<!--              <a href="#" class="btn btn-border">About Us</a>-->
-            </div>
+<!--              <a href="#" class="btn btn-border">About Us</a>
+            </div>-->
+			
+<!--// ADD BUTTON //-->		
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  width: 150px;
+  left: 2%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: bold;
+  outline: none;
+  color: #fff;
+  background-color: #FF7328;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #FFBFF3}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+</head>
+<body>
+<br><button class="button" ><a href="./home.html"><span>ENTER</button><br><br>
+</body>
+</html>
+<!-- //END BUTTON ADDED//-->				
+			
+			
+			
+			
+			
 <!--
             <div class="social mt-4">
               <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
